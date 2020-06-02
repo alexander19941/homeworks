@@ -1,0 +1,125 @@
+/*h1 {
+	color: red;
+	font-size: 12px;
+}
+
+.header {
+	background: #0f0;	
+}
+
+.header h1 {
+	
+}
+
+.header > em {
+	background: #ff0;
+}
+
+.header h1 ~ em {
+	background: #0ff;
+}
+
+input[type="text"] {
+	background: #00f; 
+}
+
+a:hover {
+	background: #000;
+}
+
+input[type="text"]:focus {
+	background: #f00;
+	outline: none;
+}
+
+button:disabled {
+	border: 2px solid #f00;
+}
+
+.checkbox:checked {
+	background: #f00;
+}
+
+.checkbox:checked + label {
+	background: #f00;
+}
+
+label {
+	display: block;
+	padding: 0;
+}
+
+/*:before {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #000;
+	content: '';
+}
+
+.checkbox {
+	display: none;
+}
+
+.checkbox:checked + label span {
+	display: none;
+}
+
+.checkbox:checked + label em {
+	display: block;
+}
+
+.checkbox:checked + label + p span {
+	display: inline-block;
+}
+
+label em {
+	display: none;
+}
+
+
+.holder div {
+	background: #f00;
+}
+
+.holder div {
+	background: #f00;
+}
+
+.holder div:last-of-type {
+	background: #00f;
+}
+
+p {
+	color: #0ff;
+}
+
+em {
+	color: #0ff;
+}
+*/
+html {
+	font-size: 10px;
+}
+
+body {
+	margin:0; 
+}
+
+.frame {
+	background: #f00;
+	font-size: 30px;
+}
+
+.frame p {
+	font-size: 6rem;
+}
+
+.frame p span {
+	font-size: 2.2rem;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}

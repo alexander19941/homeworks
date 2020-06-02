@@ -1,0 +1,42 @@
+.container {
+    box-sizing: border-box;
+	margin: 0 auto;
+	width: 500px;
+}
+
+h1 {
+	padding: 30px;
+	border: 2px solid #000;
+}
+
+h1 + p {
+	padding: 30px;
+	border: 2px solid #000;
+}
+
+.task2 {
+	width: 350px;
+	height: 220px;
+	padding: 15px 10px 20px;
+	margin-bottom: 30px;
+	border: 2px dotted #f00;
+	background: #080;
+}
+
+.firstpicture {
+	float: left;
+	width: 300px;
+	height: auto;
+	margin: 0px 20px 20px 0px;
+}
+
+.secondpicture {
+	float: right;
+	width: 200px;
+	height: auto;
+	margin: 20px 0 20px 20px;	
+}
+
+.firstpicture + p {
+	text-align: justify;
+}

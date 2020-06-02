@@ -1,0 +1,117 @@
+body,
+html,
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+body {
+	font: 300 15px/1.33333 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #ff4053;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.wrapper {
+	max-width: 1154px;
+	margin: 0 auto;
+	padding: 38px 20px 0;
+}
+
+.header {
+	margin-bottom: 155px;
+}
+
+.header:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.header .logo {
+	float:left;
+}
+
+.header .logo img {
+	display: block;
+}
+
+.header .btn {
+	float: right;
+	margin-left: 64px;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 12px 25px;
+	color: #fff;
+	background: #ff4053;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 24px;
+}
+
+.btn.btn--green {
+	background: #9dc44d;
+}
+
+.nav {
+	float: right;
+	padding: 15px 0 0;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 40px;
+
+}
+
+.nav a {
+	color: #000;
+}
+
+.nav a:hover {
+	color:#ff4053;
+}
+
+.intro-box-frame {
+	max-width: 720px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro-box h1 {
+	font-weight: normal;
+	font-size: 55px;
+	color: #042b2c;
+	margin: 0 0 20px;
+}
+
+.intro-box h1 b {
+	font-weight: bold;
+	display: block;
+}
+
+.intro-box p {
+	margin: 0 0 30px;
+}
+
+.intro-box .btn {
+	margin-bottom: 50px;
+}
